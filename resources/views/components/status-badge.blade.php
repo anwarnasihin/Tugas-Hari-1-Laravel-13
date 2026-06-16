@@ -10,7 +10,7 @@
         default => 'bg-gray-100 text-gray-800 border-gray-300',
     };
 
-    // Mengubah teks database menjadi lebih rapi saat dibaca manusia
+    // Mengubah teks database menjadi lebih rapi saat dibaca
     $label = match($status) {
         'todo'  => 'To Do',
         'doing' => 'In Progress',

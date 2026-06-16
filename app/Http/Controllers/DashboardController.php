@@ -8,7 +8,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        // Menyusun data dummy awal berisi 4 parameter status sesuai instruksi modul
+        // Menyusun data dummy awal berisi 4 parameter status.
         $stats = [
             'total_tasks'   => 12,
             'in_progress'   => 4,

@@ -8,7 +8,7 @@ class TaskController extends Controller
 {
     public function index()
     {
-        // Menyusun array dummy multi-dimensi sesuai kebutuhan latihan 3
+        // Menyusun array dummy multi-dimensi. Setiap elemen di dalam array $tasks merepresentasikan sebuah tugas dengan atribut id, title, description, status, dan priority.
         $tasks = [
             [
                 'id' => 1,

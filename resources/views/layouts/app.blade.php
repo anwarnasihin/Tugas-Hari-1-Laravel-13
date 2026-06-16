@@ -19,6 +19,7 @@
 
             {{-- Link Navigasi — Sekarang mengarah ke halaman Dashboard --}}
             <a href="{{ route('dashboard') }}" class="ml-6 text-sm text-gray-600 hover:text-blue-600">Dashboard</a>
+            {{-- Link Navigasi — Sekarang mengarah ke halaman Daftar Tugas --}}
             <a href="{{ route('tasks.index') }}" class="ml-4 text-sm text-gray-600 hover:text-blue-600">Daftar Tugas</a>
         </div>
     </nav>

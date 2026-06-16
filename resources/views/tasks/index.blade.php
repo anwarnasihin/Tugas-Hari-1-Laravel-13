@@ -5,7 +5,7 @@
 @section('content')
     <div class="flex justify-between items-center mb-6">
         <h1 class="text-xl font-semibold text-gray-900">Daftar Tugas</h1>
-        {{-- Tombol tambah tugas (untuk Latihan 4 nanti) --}}
+        {{-- Tombol tambah tugas --}}
         <a href="{{ route('tasks.create') }}" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-sm transition-colors">
     + Tambah Tugas
         </a>
